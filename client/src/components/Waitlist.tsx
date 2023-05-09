@@ -13,7 +13,7 @@ const Waitlist: React.FC<WaitlistProps> = ({ onSubmit }) => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center opacity-0 animate-fade-in opacity-100  py-2">
+    <div className="flex flex-col items-center justify-center mt-4 opacity-0 animate-fade-in opacity-100  py-2">
       <form
         onSubmit={handleSubmit}
         className="bg-white w-96 relative  rounded-xl px-8 pt-6 pb-8 mb-4"
