@@ -6,8 +6,10 @@ function App() {
     <div className="App p-8">
       <header className="App-header">
         <Greeting />
-        <DashboardInfo />
       </header>
+      <body>
+        <DashboardInfo />
+      </body>
     </div>
   );
 }
