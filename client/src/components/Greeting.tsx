@@ -45,7 +45,7 @@ const Greeting = () => {
           <img src={PlayStore} alt="Play Store" className="h-12" />
           <img src={AppStore} alt="App Store" className="h-12" />
         </p>
-        <div className="bg-white rounded-lg h-2 w-[80%]  m-auto relative"></div>
+        <div className="bg-white rounded-lg h-2 w-[80%] lg:mt-[-450px] m-auto relative"></div>
       </div>
     </div>
   );

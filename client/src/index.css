@@ -14,6 +14,7 @@ body {
   font-family: "Paytone One", sans-serif;
 }
 
+/* waitlist form */
 @keyframes fade-in {
   0% {
     opacity: 0;
@@ -22,6 +23,8 @@ body {
     opacity: 1;
   }
 }
+
+/* wooden hand */
 
 .animate-fade-in {
   animation-name: fade-in;
