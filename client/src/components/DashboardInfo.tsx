@@ -1,45 +1,69 @@
-import React from "react";
 import DashboardMockup from "../assets/DashboardMockup.png";
 import CollapsibleCard from "./FeatureDropdown";
 
-type Props = {};
-
-const DashboardInfo = (props: Props) => {
+const DashboardInfo = () => {
   return (
-    <div className=" items-center justify-center">
+    <div className="items-center justify-center">
       <h1 className="text-2xl underline text-center p-8">Dashboard Info</h1>
 
-      <div className="container bg-purple-400 rounded-lg m-auto min-h-screen">
+      <div className="container p-8 bg-purple-400 rounded-lg m-auto min-h-screen">
         <div className="row">
           <div className="col-12">
             <img
-              className="m-auto drop-shadow-2xl py-8"
+              className="m-auto w-[75%] relative lg:bottom-[-200px] lg:right-64 md:w-[60%] lg:w-[40%] xl:w-[30%] drop-shadow-2xl py-8"
               src={DashboardMockup}
               alt="Dashboard Mockup"
             />
-            <CollapsibleCard
-              title="Bounty Board"
-              content="Bounty Board is a feature that rewards children with points for completing tasks assigned by their parents. These points can be redeemed for rewards that the family puts in place, motivating kids to take on household responsibilities."
-              backgroundColor="[#FB9B9B]"
-            />
-            <CollapsibleCard
-              title="Dinnertime"
-              content="The Calendar feature allows families to keep track of each other’s schedules. This way, parents can easily see when their kids have extracurriculars, and kids can see when their parents are busy with work."
-              backgroundColor="pink-400"
-            />
-            <CollapsibleCard
-              title="chat"
-              content="The Chat feature allows families to communicate with each other in a safe and secure environment. Parents can send messages to their kids, and kids can send messages to their parents. This way, families can stay connected throughout the day."
-              backgroundColor="purple-400"
-            />
-            <CollapsibleCard
-              title="Groceries"
-              content="The Grocery List feature allows families to keep track of what groceries they need to buy. Parents can add items to the list, and kids can mark items as purchased. This way, families can stay organized and avoid buying duplicate items."
-              backgroundColor="blue-400"
-            />
+            <div className="grid grid-cols-1 relative lg:top-[-450px]">
+              <div className="text-white relative lg:left-[245px] xl:left-[310px] 2xl:left-[380px] lg:text-2xl text-center underline font-semibold">
+                Included features are:
+              </div>
+              <div className="mt-8">
+                <CollapsibleCard
+                  title="Dinnertime!"
+                  content="dinnertime allows for families to come together to provide input on what sounds good for family meals.
+
+              Share recipes, images, or full articles to decide what’s for dinner!
+              
+              Helping cook or prepare is also a great use
+              of the bountyboard!"
+                  backgroundColor="[#D9DB69]"
+                />
+              </div>
+              <div>
+                <CollapsibleCard
+                  title="Cash Quest!"
+                  content="Cash Quest is a creative way to teach kids about money management and hard work. 
+
+              It allows setting challenging goals that can be rewarded with money set by parents and serves as a visual motivator for accountability in family life."
+                  backgroundColor="[#EB90E2]"
+                />
+              </div>
+              <div>
+                <CollapsibleCard
+                  title="fmlyChat"
+                  content="fmlychat is a messaging system that provides ease-of-use directly in the fmly app.
+
+              You can chat one-on-one, add fmly members to group chats, share images, videos, links, etc..."
+                  backgroundColor="[#B2EB90]"
+                />
+              </div>
+              <div>
+                <CollapsibleCard
+                  title="Groceries"
+                  content="Groceries, lets families collaborate on a list for food and home supplies. 
+
+              Share the list and even delegate access for others to add items at their discretion.
+              
+              Picking up the supplies can also be assigned as a bounty on the bountyboard!"
+                  backgroundColor="blue-400"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <div className="bg-white mt-8 rounded-lg h-2 w-[80%]  m-auto relative"></div>
     </div>
   );
 };
