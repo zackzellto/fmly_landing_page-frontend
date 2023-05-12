@@ -3,19 +3,19 @@ import CollapsibleCard from "./FeatureDropdown";
 
 const DashboardInfo = () => {
   return (
-    <div className="items-center justify-center">
+    <div className="items-center bg-[#4af0dafa] justify-center">
       <h1 className="text-2xl underline text-center p-8">Dashboard Info</h1>
 
-      <div className="container p-8 bg-purple-400 rounded-lg m-auto min-h-screen">
+      <div className="container p-8 drop-shadow-xl bg-purple-400 rounded-lg m-auto min-h-screen">
         <div className="row">
           <div className="col-12">
             <img
-              className="m-auto w-[75%] relative lg:bottom-[-200px] lg:right-64 md:w-[60%] lg:w-[40%] xl:w-[30%] drop-shadow-2xl py-8"
+              className="m-auto w-[85%] relative lg:bottom-[-200px] lg:right-64 md:w-[60%] lg:w-[40%] xl:w-[30%] drop-shadow-2xl py-8"
               src={DashboardMockup}
               alt="Dashboard Mockup"
             />
             <div className="grid grid-cols-1 relative lg:top-[-450px]">
-              <div className="text-white relative lg:left-[245px] xl:left-[310px] 2xl:left-[380px] lg:text-2xl text-center underline font-semibold">
+              <div className="text-white drop-shadow-lg relative lg:left-[245px] xl:left-[310px] 2xl:left-[380px] lg:text-2xl text-center underline font-semibold">
                 Included features are:
               </div>
               <div className="mt-8">

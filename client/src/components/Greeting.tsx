@@ -25,7 +25,7 @@ const Greeting = () => {
       <img
         src={WoodenHand}
         alt="Wooden Hand"
-        className="mx-auto z-0 h-[270px] md:h-[480px] lg:p-8 mt-8 relative animate-bounce-slow lg:h-[500px] lg:left-[400px] xl:left-[400px] "
+        className="mx-auto z-0 drop-shadow-xl h-[270px] md:h-[480px] lg:p-8 mt-8 relative animate-bounce-slow lg:h-[500px] lg:left-[400px] xl:left-[400px] "
       />
       <div className="">
         <p className=" flex text-center text-[18px] md:text-[20px] lg:bottom-[550px] lg:max-w-2xl lg:left-24 relative py-6">
@@ -41,8 +41,16 @@ const Greeting = () => {
           <Waitlist onSubmit={handleSubmit} />
         </p>
         <p className="flex text-center text-[14px] font-semibold lg:max-w-xl lg:left-[140px] relative lg:bottom-[600px] px-8 py-8  ">
-          <img src={PlayStore} alt="Play Store" className="h-12 m-auto" />
-          <img src={AppStore} alt="App Store" className="h-12 m-auto" />
+          <img
+            src={PlayStore}
+            alt="Play Store"
+            className="h-12 m-auto drop-shadow-xl"
+          />
+          <img
+            src={AppStore}
+            alt="App Store"
+            className="h-12 m-auto drop-shadow-xl"
+          />
         </p>
         <div className="bg-white rounded-lg h-2 w-[80%] lg:mt-[-450px] m-auto relative"></div>
       </div>
