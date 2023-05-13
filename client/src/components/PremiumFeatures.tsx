@@ -1,10 +1,7 @@
-import React from "react";
 import FmfMap from "../assets/gmap-png 1.png";
 import BountyBoard from "../assets/bountydash.png";
 
-type Props = {};
-
-const PremiumFeatures = (props: Props) => {
+const PremiumFeatures = () => {
   return (
     <div className=" min-h-screen justify-center items-center">
       <div className="font-black underline text-2xl text-center py-8">
@@ -39,10 +36,10 @@ const PremiumFeatures = (props: Props) => {
             />
           </div>
         </div>
-        <div className=" flex text-4xl text-rose-400 p-16 drop-shadow-md py-24 ">
+        <div className=" flex text-4xl text-rose-400 drop-shadow-md md: py-24 ">
           bountyboard
         </div>
-        <span className="text-center lg:top-[80px] tracking-wide lg:w-[500px] relative top-[-80px] text-[18px] font-semibold">
+        <span className="text-center lg:top-[80px] tracking-wide w-[400px] lg:w-[500px] relative lg:right-[496px] top-[-80px] text-[18px] font-semibold">
           The bountyboard®, the new way to turn boring household chores into an
           exciting and rewarding game! With bountyboard®, you and your family
           can earn points and rewards for completing a variety of household
