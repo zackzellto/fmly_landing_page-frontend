@@ -15,7 +15,7 @@ const DashboardInfo = () => {
               alt="Dashboard Mockup"
             />
             <div className="grid grid-cols-1 relative lg:top-[-450px]">
-              <div className="text-white drop-shadow-lg relative lg:left-[245px] xl:left-[310px] 2xl:left-[380px] lg:text-2xl text-center underline font-semibold">
+              <div className="text-white drop-shadow-lg max-w-md m-auto relative lg:left-[245px] xl:left-[310px] 2xl:left-[380px] lg:text-2xl text-center underline font-semibold">
                 Included features are:
               </div>
               <div className="mt-8">
@@ -27,7 +27,7 @@ const DashboardInfo = () => {
               
               Helping cook or prepare is also a great use
               of the bountyboard!"
-                  backgroundColor="[#D9DB69]"
+                  backgroundColor="bg-[#D9DB69]"
                 />
               </div>
               <div>
@@ -36,7 +36,7 @@ const DashboardInfo = () => {
                   content="Cash Quest is a creative way to teach kids about money management and hard work. 
 
               It allows setting challenging goals that can be rewarded with money set by parents and serves as a visual motivator for accountability in family life."
-                  backgroundColor="[#EB90E2]"
+                  backgroundColor="bg-[#EB90E2]"
                 />
               </div>
               <div>
@@ -45,7 +45,7 @@ const DashboardInfo = () => {
                   content="fmlychat is a messaging system that provides ease-of-use directly in the fmly app.
 
               You can chat one-on-one, add fmly members to group chats, share images, videos, links, etc..."
-                  backgroundColor="[#B2EB90]"
+                  backgroundColor="bg-[#B2EB90]"
                 />
               </div>
               <div>
@@ -56,7 +56,7 @@ const DashboardInfo = () => {
               Share the list and even delegate access for others to add items at their discretion.
               
               Picking up the supplies can also be assigned as a bounty on the bountyboard!"
-                  backgroundColor="blue-400"
+                  backgroundColor="bg-blue-400"
                 />
               </div>
             </div>

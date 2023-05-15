@@ -18,7 +18,7 @@ const CollapsibleCard: React.FC<CollapsibleCardProps> = ({
   return (
     <div
       onClick={toggleOpen}
-      className={`cursor-pointer transform transition hover:scale-110 lg:w-[45%] relative lg:left-[26%] bottom-[] w-[73%] border max-w-md mx-auto rounded-xl shadow-2xl overflow-hidden md:max-w-xl m-4 bg-${backgroundColor}`}
+      className={`cursor-pointer transform transition hover:scale-110 lg:w-[45%] relative lg:left-[26%] bottom-[] w-[73%] border max-w-md mx-auto rounded-xl shadow-2xl overflow-hidden md:max-w-xl m-4 ${backgroundColor}`}
     >
       <div className="md:flex">
         <div className="p-4 m-auto">
