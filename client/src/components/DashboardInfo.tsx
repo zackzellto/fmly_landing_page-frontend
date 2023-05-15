@@ -6,7 +6,7 @@ const DashboardInfo = () => {
     <div className="items-center bg-[#4af0dafa] justify-center">
       <h1 className="text-2xl underline text-center p-8">Dashboard Info</h1>
 
-      <div className="container p-8 drop-shadow-xl bg-purple-400 rounded-lg m-auto min-h-screen">
+      <div className="container p-8 drop-shadow-xl bg-purple-400 shadow-xl rounded-lg m-auto min-h-screen">
         <div className="row">
           <div className="col-12">
             <img
