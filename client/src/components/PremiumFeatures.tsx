@@ -18,7 +18,7 @@ const PremiumFeatures = () => {
             <div className="relative lg:left-[500px] lg:top-[-350px] flex text-4xl p-16 drop-shadow-md py-24 ">
               Find My <br /> <div className="ml-1 text-white">fmly</div>{" "}
             </div>
-            <span className="text-center tracking-wide relative lg:top-[-400px] lg:left-[500px] top-[-80px] text-[18px] font-semibold">
+            <span className="text-center tracking-wide relative lg:top-[-420px] lg:left-[500px] top-[-80px] text-[18px] font-semibold">
               A premium feature that allows all of your fmly members to be found
               via GPS tracking*, providing peace of mind and comfort...Or to
               pick something up on their way home... :)
@@ -28,18 +28,18 @@ const PremiumFeatures = () => {
       </div>
       <div className="flex flex-col lg:flex-row justify-center items-center">
         <div className="flex flex-col justify-center items-center lg:mr-8 mt-80">
-          <div className=" bg-[#5676cf] drop-shadow-xl lg:h-[500px] relative lg:left-[670px] lg:top-[-250px] rotate-12 h-80 w-80 rounded-md">
+          <div className="bg-[#5676cf] drop-shadow-xl h-[400px] sm:h-[500px] lg:h-[600px] relative sm:left-1/2 sm:-translate-x-1/2 lg:left-[800px] lg:top-[-250px] rotate-12 rounded-md">
             <img
               src={BountyBoard}
               alt="Bounty Board"
-              className=" h-full rotate-1 relative p-8 px-6 m-auto"
+              className="h-full rotate-1 p-8 px-6 mx-auto"
             />
           </div>
         </div>
-        <div className=" flex text-4xl relative lg:top-[-220px] lg:right-52  text-rose-400 drop-shadow-md md: py-16">
+        <div className=" flex text-4xl relative lg:top-[-220px] lg:right-[130px] text-rose-400 drop-shadow-md py-16">
           bountyboard
         </div>
-        <span className="text-center  lg:top-[-80px] tracking-wide w-[400px] lg:w-[500px] relative lg:right-[596px] top-[-50px] text-[18px] font-semibold">
+        <span className="text-center lg:top-[-80px] tracking-wide w-[400px] lg:w-[500px] relative lg:right-[496px] top-[-50px] text-[18px] font-semibold">
           The bountyboard®, the new way to turn boring household chores into an
           exciting and rewarding game! With bountyboard®, you and your family
           can earn points and rewards for completing a variety of household
