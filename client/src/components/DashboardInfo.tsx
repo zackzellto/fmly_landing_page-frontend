@@ -3,7 +3,7 @@ import CollapsibleCard from "./FeatureDropdown";
 
 const DashboardInfo = () => {
   return (
-    <div className="items-center bg-[#4af0dafa] justify-center">
+    <div className="items-center  bg-[#4af0dafa] justify-center">
       <h1 className="text-2xl underline text-center p-8">Dashboard Info</h1>
 
       <div className="container p-8 drop-shadow-xl bg-purple-400 shadow-xl rounded-lg m-auto min-h-screen">
