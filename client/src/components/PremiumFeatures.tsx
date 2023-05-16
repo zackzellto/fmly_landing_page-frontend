@@ -8,12 +8,12 @@ const PremiumFeatures = () => {
         Premium Features
       </div>
       <div className="flex flex-col lg:flex-row justify-center items-center">
-        <div className="flex flex-col justify-center items-center lg:mr-8">
-          <div className=" bg-[#F3D08D] relative drop-shadow-xl lg:left-[-220px] h-[450px] w-[450px] rounded-full">
+        <div className="flex flex-col justify-center items-center px-8 lg:mr-8">
+          <div className=" bg-[#F3D08D] relative drop-shadow-xl lg:left-[-220px] h-[370px] w-[370px] lg:w-[450px] lg:h-[450px] rounded-full">
             <img
               src={FmfMap}
               alt="Find My fmly Map"
-              className="h-96 w-96 relative top-8 p-8 px-6 m-auto"
+              className="h-80 w-80 lg:h-96 lg:w-96 relative top-8 p-8 px-6 m-auto"
             />
             <div className="relative lg:left-[500px] lg:top-[-350px] flex text-4xl p-16 drop-shadow-md py-24 ">
               Find My <br /> <div className="ml-1 text-white">fmly</div>{" "}
