@@ -47,7 +47,7 @@ const PremiumFeatures = () => {
           activity, while also adding a bit of friendly competition!
         </span>
       </div>
-      <div className="bg-white rounded-lg h-2 w-[80%]  m-auto relative"></div>
+      <div className="bg-white rounded-lg h-2 w-[60%] max-w-[800px] lg:-mt-48  m-auto relative"></div>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 interface CollapsibleCardProps {
   title: string;
@@ -12,11 +12,27 @@ const CollapsibleCard: React.FC<CollapsibleCardProps> = ({
   backgroundColor,
 }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const cardRef = useRef<HTMLDivElement>(null);
 
   const toggleOpen = () => setIsOpen(!isOpen);
 
+  useEffect(() => {
+    const handleClickOutside = (event: MouseEvent) => {
+      if (cardRef.current && !cardRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    };
+
+    window.addEventListener("click", handleClickOutside);
+
+    return () => {
+      window.removeEventListener("click", handleClickOutside);
+    };
+  }, []);
+
   return (
     <div
+      ref={cardRef}
       onClick={toggleOpen}
       className={`cursor-pointer transform transition hover:scale-110 lg:w-[45%] relative lg:left-[26%] bottom-[] w-[73%] border max-w-md mx-auto rounded-xl shadow-2xl overflow-hidden md:max-w-xl m-4 ${backgroundColor}`}
     >
