@@ -18,7 +18,7 @@ const Greeting = () => {
     <div className="container justify-center items-center m-auto ">
       <div className="font-black lg:left-[55px] lg:max-w-3xl lg:mt-[50px] text-center relative text-[55px] md:text-[96px] ">
         Get organized with{" "}
-        <span className="text-white  drop-shadow-lg" id="paytone-one">
+        <span className="text-white drop-shadow-lg" id="paytone-one">
           fmly
         </span>
       </div>
@@ -35,12 +35,12 @@ const Greeting = () => {
       </p>
 
       {/* <div className="bg-[#48ddc9] rounded-lg lg:h-8 w-[20%] m-auto z-10 relative top-[-310px] "></div> */}
-      <p className="text-[14px] text-center font-semibold lg:max-w-xl lg:left-[140px] relative lg:bottom-[600px] px-8 ">
+      <p className="text-[14px] text-center font-semibold lg:max-w-xl lg:left-[140px] relative lg:bottom-[670px] px-8 ">
         Interested in trying out fmly? Then join the waitlist and be one of the
         first to use fmly before it's released!
         <Waitlist onSubmit={handleSubmit} />
       </p>
-      <p className="flex text-center text-[14px] font-semibold lg:max-w-xl lg:left-[140px] relative lg:bottom-[600px] px-8 py-8">
+      <p className="flex text-center text-[14px] font-semibold lg:max-w-xl lg:left-[140px] relative lg:bottom-[690px] px-8 py-8">
         <img
           src={PlayStore}
           alt="Play Store"

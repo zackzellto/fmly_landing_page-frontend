@@ -5,7 +5,7 @@ const DashboardInfo = () => {
   return (
     <div className="items-center bg-[#4af0dafa] justify-center lg:-mt-[500px]">
       <h1 className="text-2xl underline text-center p-8">Dashboard Info</h1>
-
+      <div className="bg-white rounded-lg h-2 w-[60%] max-w-[800px] lg:-mt-64 mb-8  m-auto relative"></div>
       <div className="container p-8 drop-shadow-xl bg-purple-400 shadow-xl rounded-lg m-auto min-h-screen">
         <div className="row">
           <div className="col-12">

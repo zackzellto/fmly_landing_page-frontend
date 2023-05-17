@@ -39,13 +39,13 @@ const PricingInfo = (props: Props) => {
             </div>
           </div>
         </div>{" "}
-        <div className="flex justify-center  p-8">
-          <button className="w-full md:w-[320px] lg:w-[350px]">
+        <div className="flex justify-center p-8">
+          <button className="w-[320px] relative bottom-[80px] md:w-[310px] lg:w-[330px]">
             <div
               className={`${backgroundColor} p-3 drop-shadow-lg text-white text-3xl rounded-lg relative`}
             >
-              <p className="text-center text-1xl pt-1">Sign Up</p>
-              <p className="text-center text-sm">
+              <p className="text-center text-xl pt-1">Sign Up</p>
+              <p className="text-center text-sm font-sans">
                 (not active during development)
               </p>
             </div>
