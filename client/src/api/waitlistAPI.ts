@@ -1,20 +1,22 @@
-const baseURL = "https://fmly-landing-page-backend.herokuapp.com/api/waitlist";
+import axios, { AxiosResponse } from "axios";
 
-export const addToWaitlist = async (email: string) => {
+interface WaitlistResponse {
+  id: string;
+  email: string;
+  timestamp: string;
+}
+
+const baseURL = "https://fmly-landing-backend.herokuapp.com/api/waitlist";
+
+export const addToWaitlist = async (
+  email: string
+): Promise<WaitlistResponse> => {
   try {
-    const response = await fetch(baseURL, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ email }),
-    });
-
-    if (!response.ok) {
-      throw new Error("Failed to add email to waitlist");
-    }
-
-    const data = await response.json();
+    const response: AxiosResponse<WaitlistResponse> = await axios.post(
+      baseURL,
+      { email }
+    );
+    const data: WaitlistResponse = response.data;
     console.log(data);
     return data;
   } catch (error) {
